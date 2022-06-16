@@ -1,6 +1,6 @@
 {
   "name": "react-finnhub",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React Library for finnhub-ts",
   "author": {
     "email": "me@ru4ert.com",
@@ -41,7 +41,7 @@
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "module": "./dist/index.module.js",
+  "module": "./dist/index.js",
   "source": "./src/index.ts",
   "scripts": {
     "build": "tsc",
