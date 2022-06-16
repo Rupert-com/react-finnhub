@@ -1,4 +1,4 @@
-import { DefaultApi } from 'finnhub-ts'
+import * as Finnhub from 'finnhub-ts'
 import { createContext, FC, ReactNode, useContext } from 'react'
 
 type IFinnhubProviderProps = {
@@ -9,13 +9,13 @@ type IFinnhubProviderProps = {
 //@ts-ignore
 const FinnhubContext = createContext<DefaultApi>()
 
-export const useFinnhub = (): DefaultApi => useContext(FinnhubContext)
+export const useFinnhub = (): Finnhub.DefaultApi => useContext(FinnhubContext)
 export const FinnhubProvider: FC<IFinnhubProviderProps> = ({ client, children }) => {
   return <FinnhubContext.Provider value={client}>{children}</FinnhubContext.Provider>
 }
 
 export const finnhubClient = (apiKey: string) =>
-  new DefaultApi({
+  new Finnhub.DefaultApi({
     apiKey,
     isJsonMime: (input) => {
       try {
@@ -25,3 +25,5 @@ export const finnhubClient = (apiKey: string) =>
       return false
     },
   })
+
+export * from 'finnhub-ts'
