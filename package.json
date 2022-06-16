@@ -1,0 +1,56 @@
+{
+  "name": "react-finnhub",
+  "version": "1.0.0",
+  "description": "React Library for finnhub-ts",
+  "author": {
+    "email": "me@ru4ert.com",
+    "name": "Rupert Bogensperger",
+    "url": "https://ru4ert.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rupert-com/react-finnhub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rupert-com/react-finnhub/issues",
+    "email": "me@ru4ert.com"
+  },
+  "homepage": "https://github.com/Rupert-com/react-finnhub#readme",
+  "keywords": [
+    "finnhub",
+    "react",
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "finnhub-ts",
+    "stockapi",
+    "quotes",
+    "stock",
+    "stock market",
+    "stock candles",
+    "finance",
+    "ticker",
+    "tickers",
+    "data",
+    "free",
+    "api",
+    "client",
+    "prices",
+    "trading"
+  ],
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "finnhub-ts": "^1.0.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.13"
+  }
+}
