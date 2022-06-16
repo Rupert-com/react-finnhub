@@ -5,7 +5,7 @@
 building on [finnhub-ts](https://github.com/Rupert-com/finnhub-ts#readme)
 
 ## Usage
-
+Get your API-Key: https://finnhub.io/register
 ### Provider
 
 ```typescript

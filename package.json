@@ -1,6 +1,6 @@
 {
   "name": "react-finnhub",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React Library for finnhub-ts",
   "author": {
     "email": "me@ru4ert.com",
@@ -50,7 +50,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "finnhub-ts": "^1.0.4",
+    "finnhub-ts": "^1.0.6",
     "react": "^18.2.0"
   },
   "devDependencies": {
